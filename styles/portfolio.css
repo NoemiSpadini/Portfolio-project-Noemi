@@ -151,6 +151,15 @@ nav li.active {
   nav a {
     font-size: 14px;
   }
+
+  nav ul {
+    margin: 15px 0;
+  }
+
+  .logo {
+    max-height: 60px;
+  }
+
   .content-container {
     padding: 0;
   }
