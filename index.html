@@ -26,26 +26,36 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Noemi Spadini - Portfolio</title>
+    <meta
+      name="description"
+      content="Noemi is an Italian Front-end developer, based in Europe. She has a background in business and she is passionate about technology, web-development and UX/UI."
+    />
+    <title>Noemi Spadini - Front-end developer</title>
   </head>
   <body>
     <div class="header">
       <div class="container">
         <nav class="d-flex justify-content-between">
-          <img src="images/colored_logo.png" class="logo" alt="" />
+          <a href="/" title="Homepage">
+            <img
+              src="images/colored_logo.png"
+              class="logo"
+              alt="Noemi Spadini Logo"
+            />
+          </a>
           <!-- class="logo  d-none d-md-block" -->
           <ul>
             <li class="active">
-              <a href="/index.html">Home</a>
+              <a href="/index.html" title="Homepage">Home</a>
             </li>
             <li>
-              <a href="/about.html">About</a>
+              <a href="/about.html" title="About Noemi">About</a>
             </li>
             <li>
-              <a href="/work.html">Work</a>
+              <a href="/work.html" title="Noemi's work">Work</a>
             </li>
             <li>
-              <a href="/contact.html">Contact</a>
+              <a href="/contact.html" title="Contact Noemi">Contact</a>
             </li>
           </ul>
         </nav>
@@ -56,7 +66,9 @@
       <p>Hi, I am</p>
       <h1>Noemi Spadini</h1>
       <h2 class="mb-5">Italian Front-end developer, based in Europe</h2>
-      <a href="#" class="btn btn-branding">Contact me</a>
+      <a href="/contact.html" class="btn btn-branding" title="Contact me"
+        >Contact me</a
+      >
     </div>
     <p class="text-center m-5">
       Featured Project which my best projects be choice to show
@@ -77,7 +89,7 @@
               sollicitudin, erat urna laoreet leo, non sodales arcu enim vitae
               ante
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -93,7 +105,7 @@
               sollicitudin, erat urna laoreet leo, non sodales arcu enim vitae
               ante
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -115,11 +127,11 @@
               sollicitudin, erat urna laoreet leo, non sodales arcu enim vitae
               ante
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <!-- <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         > -->
@@ -135,22 +147,40 @@
           <a
             href="mailto:noemispadini94@gmail.com"
             class="email-link"
+            title="Email Noemi Spadini"
             target="_blank"
             >noemispadini94@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.linkedin.com/in/noemi-spadini/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/noemi-spadini/"
+            target="_blank"
+            title="LinkedIn Noemi Spadini"
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
-          <a href="https://www.github.com/NoemiSpadini" target="_blank"
+          <a
+            href="https://www.github.com/NoemiSpadini"
+            target="_blank"
+            title="GitHub Noemi Spadini"
             ><i class="fa-brands fa-github"></i
           ></a>
 
-          <a href=" http://www.instagram.com/codewithnem" target="_blank"
+          <a
+            href=" http://www.instagram.com/codewithnem"
+            target="_blank"
+            title="Instagram Noemi Spadini"
             ><i class="fa-brands fa-instagram"></i
           ></a>
         </div>
+        <p class="text-center mt-4">
+          This project was coded by Noemi Spadini, and it is
+          <a
+            href="https://github.com/NoemiSpadini/Portfolio-project-Noemi"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
