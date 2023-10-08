@@ -26,6 +26,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <meta
       name="description"
       content="Noemi is an Italian Front-end developer, based in Europe. She has a background in business and she is passionate about technology, web-development and UX/UI."
@@ -33,34 +37,34 @@
     <title>Noemi Spadini - Front-end developer</title>
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <nav class="d-flex justify-content-between">
-          <a href="/" title="Homepage">
-            <img
-              src="images/logo-light-green.png"
-              class="logo"
-              alt="Noemi Spadini Logo"
-            />
-          </a>
-          <!-- class="logo  d-none d-md-block" -->
-          <ul>
-            <li class="active">
-              <a href="/index.html" title="Homepage">Home</a>
-            </li>
-            <li>
-              <a href="/about.html" title="About Noemi">About</a>
-            </li>
-            <li>
-              <a href="/work.html" title="Noemi's work">Work</a>
-            </li>
-            <li>
-              <a href="/contact.html" title="Contact Noemi">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+    <!-- NAVBAR -->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <a href="/index.html" class="link">
+        <img
+          src="images/logo-light-green.png"
+          class="logo"
+          alt="Noemi Spadini Logo"
+        />
+      </a>
+      <ul>
+        <li class="active">
+          <a href="/index.html" title="Homepage">Home</a>
+        </li>
+        <li>
+          <a href="/about.html" title="About Noemi">About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="Noemi's work">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Noemi">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
     <div class="hero">
       <p>Hi, I am</p>
